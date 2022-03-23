@@ -55,7 +55,7 @@ class UpdatePassword extends Component implements HasForms
                 ->label(__('New Password'))
                 ->type('password')
                 ->placeholder(__('New Password'))
-                ->rules(['required', 'string', new Password, 'confirmed'])
+                ->rules(['required', 'string', new Password(), 'confirmed'])
                 ->required(),
             TextInput::make('password_confirmation')
                 ->label(__('Confirm Password'))

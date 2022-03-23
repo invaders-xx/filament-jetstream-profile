@@ -3,10 +3,8 @@
 namespace InvadersXX\FilamentJetstreamProfile;
 
 use Filament\PluginServiceProvider;
-use InvadersXX\FilamentJetstreamProfile\Commands\FilamentJetstreamProfileCommand;
 use InvadersXX\FilamentJetstreamProfile\Forms\UpdatePassword;
 use InvadersXX\FilamentJetstreamProfile\Forms\UpdateProfileInformation;
-use InvadersXX\FilamentJetstreamProfile\Pages\Profile;
 use Livewire\Livewire;
 use Spatie\LaravelPackageTools\Package;
 
