@@ -2,7 +2,9 @@
 
 namespace InvadersXX\FilamentJetstreamProfile\Tests;
 
+use Filament\FilamentServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 use InvadersXX\FilamentJetstreamProfile\FilamentJetstreamProfileServiceProvider;
 
@@ -20,6 +22,8 @@ class TestCase extends Orchestra
     protected function getPackageProviders($app)
     {
         return [
+            LivewireServiceProvider::class,
+            FilamentServiceProvider::class,
             FilamentJetstreamProfileServiceProvider::class,
         ];
     }
