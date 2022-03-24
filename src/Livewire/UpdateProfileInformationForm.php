@@ -27,4 +27,8 @@ class UpdateProfileInformationForm extends BaseUpdateProfileInformationForm
 
         $this->emit('refresh-navigation-menu');
     }
+    public function render()
+    {
+        return view('filament-jetstream-profile::profile.update-profile-information-form');
+    }
 }

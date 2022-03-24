@@ -1,7 +1,3 @@
-<x-filament.card :header="__('Profile Information')">
-
-</x-filament.card>
-
 <x-jet-form-section submit="updateProfileInformation">
     <x-slot name="title">
         {{ __('Profile Information') }}
@@ -13,7 +9,7 @@
 
     <x-slot name="form">
         <!-- Profile Photo -->
-        @if (Laravel\Jetstream\Jetstream::managesProfilePhotos())
+         @if (Laravel\Jetstream\Jetstream::managesProfilePhotos())
             <div x-data="{photoName: null, photoPreview: null}" class="col-span-6 sm:col-span-4">
                 <!-- Profile Photo File Input -->
                 <input type="file" class="hidden"
@@ -58,15 +54,9 @@
 
         <!-- Name -->
         <div class="col-span-6 sm:col-span-4">
-            <x-jet-label for="first_name" value="{{ __('First Name') }}" />
-            <x-jet-input id="first_name" type="text" class="mt-1 block w-full" wire:model.defer="state.first_name" autocomplete="first_name" />
-            <x-jet-input-error for="first_name" class="mt-2" />
-        </div>
-
-        <div class="col-span-6 sm:col-span-4">
-            <x-jet-label for="last_name" value="{{ __('Last Name') }}" />
-            <x-jet-input id="last_name" type="text" class="mt-1 block w-full" wire:model.defer="state.last_name" autocomplete="last_name" />
-            <x-jet-input-error for="last_name" class="mt-2" />
+            <x-jet-label for="name" value="{{ __('Name') }}" />
+            <x-jet-input id="name" type="text" class="mt-1 block w-full" wire:model.defer="state.name" autocomplete="name" />
+            <x-jet-input-error for="name" class="mt-2" />
         </div>
 
         <!-- Email -->
