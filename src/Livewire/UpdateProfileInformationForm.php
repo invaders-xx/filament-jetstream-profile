@@ -1,4 +1,5 @@
 <?php
+
 namespace InvadersXX\FilamentJetstreamProfile\Livewire;
 
 use Illuminate\Support\Facades\Auth;
