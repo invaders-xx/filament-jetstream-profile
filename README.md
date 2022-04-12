@@ -1,6 +1,3 @@
-
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/support-ukraine.svg?t=1" />](https://supportukrainenow.org)
-
 # Add jetstream-profile to filament admin
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/invaders-xx/filament-jetstream-profile.svg?style=flat-square)](https://packagist.org/packages/invaders-xx/filament-jetstream-profile)
