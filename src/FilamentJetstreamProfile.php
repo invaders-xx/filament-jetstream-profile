@@ -4,4 +4,5 @@ namespace InvadersXX\FilamentJetstreamProfile;
 
 class FilamentJetstreamProfile
 {
+    //
 }

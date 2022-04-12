@@ -32,4 +32,11 @@ class FilamentJetstreamProfileServiceProvider extends PluginServiceProvider
             ->hasConfigFile()
             ->hasViews();
     }
+
+    protected function getPages(): array
+    {
+        return config("filament-jetstream-profile.enable_profile_page")
+            ? [Pages\JetstreamProfile::class]
+            : [];
+    }
 }
