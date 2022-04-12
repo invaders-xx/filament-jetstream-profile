@@ -36,33 +36,8 @@ This is the contents of the published config file:
 
 ```php
 return [
+    'enable_profile_page' => true,
 ];
-```
-
-
-## Usage
-Add 
-```php
-\InvadersXX\FilamentJetstreamProfile\Pages\Profile::class,
-```
-to filament config file in 'pages' register section.
-
-or 
-```bash
-php artisan filament:page Profile
-```
-This will create a new App\Filament\Pages\Profile class in your project.
-
-You can then update this class to extend the InvadersXX\FilamentJetstreamProfile\Pages\Profile class.
-```php
-namespace App\Filament\Pages;
-
-use InvadersXX\FilamentJetstreamProfile\Pages\Profile as BaseProfile;
-
-class Profile extends BaseProfile
-{
-// ...
-}
 ```
 
 ## Testing
