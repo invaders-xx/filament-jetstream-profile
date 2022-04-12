@@ -1,6 +1,6 @@
 {
     "name": "invaders-xx/filament-jetstream-profile",
-    "description": "This is my package filament-jetstream-profile",
+    "description": "Get JetStream profile within filament",
     "keywords": [
         "invaders-xx",
         "laravel",
