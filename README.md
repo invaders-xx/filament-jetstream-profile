@@ -35,6 +35,30 @@ return [
 composer test
 ```
 
+## Contributing
+
+If you want to contribute to this packages, you may want to test it in a real Filament project:
+
+- Fork this repository to your GitHub account.
+- Create a Filament app locally.
+- Clone your fork in your Filament app's root directory.
+- In the `/filament-jetstream-profile` directory, create a branch for your fix, e.g. `fix/error-message`.
+
+Install the packages in your app's `composer.json`:
+
+```json
+"require": {
+    "invaders-xx/filament-jetstream-profile": "dev-fix/error-message as main-dev",
+},
+"repositories": [
+    {
+        "type": "path",
+        "url": "filament-jetstream-profile"
+    }
+]
+```
+
+Now, run `composer update`.
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
