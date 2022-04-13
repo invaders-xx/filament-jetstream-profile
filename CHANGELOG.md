@@ -2,6 +2,14 @@
 
 All notable changes to `filament-jetstream-profile` will be documented in this file.
 
+## V1.1 - 2022-04-13
+
+## What's Changed
+
+- Fix darkmode by @invaders-xx in https://github.com/invaders-xx/filament-jetstream-profile/pull/3
+
+**Full Changelog**: https://github.com/invaders-xx/filament-jetstream-profile/compare/v1.0...v1.1
+
 ## First version - 2022-04-12
 
 ## What's Changed
